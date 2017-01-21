@@ -1,0 +1,16 @@
+plugin.tx_sso {
+	view {
+		templateRootPath = EXT:sso/Resources/Private/Templates/
+		partialRootPath = EXT:sso/Resources/Private/Partials/
+		layoutRootPath = EXT:sso/Resources/Private/Layouts/
+	}
+
+	persistence {
+		storagePid = auto
+		newRecordStoragePid =
+	}
+
+	settings {
+
+	}
+}
