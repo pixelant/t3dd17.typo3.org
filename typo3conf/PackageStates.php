@@ -252,6 +252,24 @@ return [
             'packagePath' => 'typo3/sysext/viewpage/',
             'suggestions' => [],
         ],
+        'static_info_tables' => [
+            'composerName' => 'sjbr/static_info_tables',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/static_info_tables/',
+            'suggestions' => [],
+        ],
+        'yaml_parser' => [
+            'composerName' => 'typo3-ter/yaml-parser',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/yaml_parser/',
+            'suggestions' => [],
+        ],
+        'themes' => [
+            'composerName' => 'typo3-themes/themes',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/themes/',
+            'suggestions' => [],
+        ],
         'dyncss' => [
             'composerName' => 'dyncss',
             'state' => 'active',
@@ -262,18 +280,6 @@ return [
             'composerName' => 'dyncss_less',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/dyncss_less/',
-            'suggestions' => [],
-        ],
-        'static_info_tables' => [
-            'composerName' => 'sjbr/static_info_tables',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/static_info_tables/',
-            'suggestions' => [],
-        ],
-        'themes' => [
-            'composerName' => 'typo3-themes/themes',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/themes/',
             'suggestions' => [],
         ],
         'gridelements' => [
@@ -350,10 +356,10 @@ return [
             'packagePath' => 'typo3conf/ext/solr/',
             'suggestions' => [],
         ],
-        'yaml_parser' => [
-            'composerName' => 'typo3-ter/yaml-parser',
+        'sso' => [
+            'composerName' => 'typo3/sso',
             'state' => 'active',
-            'packagePath' => 'typo3conf/ext/yaml_parser/',
+            'packagePath' => 'typo3conf/ext/sso/',
             'suggestions' => [],
         ],
         'adodb' => [
@@ -408,6 +414,12 @@ return [
             'composerName' => 'typo3/cms-recycler',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/recycler/',
+            'suggestions' => [],
+        ],
+        'sessions' => [
+            'composerName' => 'typo3/sessions',
+            'state' => 'inactive',
+            'packagePath' => 'typo3conf/ext/sessions/',
             'suggestions' => [],
         ],
         'sys_action' => [

@@ -1,0 +1,18 @@
+plugin.tx_sessions {
+	view {
+		templateRootPath = EXT:sessions/Resources/Private/Templates/
+		partialRootPath = EXT:sessions/Resources/Private/Partials/
+		layoutRootPath = EXT:sessions/Resources/Private/Layouts/
+	}
+
+	persistence {
+		storagePid = auto
+	}
+
+	settings {
+		dd {
+			start = 01.09.2016
+			end = 04.09.2016
+		}
+	}
+}
