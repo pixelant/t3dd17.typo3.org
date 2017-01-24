@@ -8,11 +8,11 @@ return [
         'versionNumberInFilename' => '0',
     ],
     'DB' => [
-        'database' => 't3dd17_typo3_org',
+        'database' => 'ddseventeen',
         'host' => 'localhost',
-        'password' => 'iet8sainae4m',
-        'socket' => '',
-        'username' => 't3dd17_typo3_org',
+        'password' => 'ichaephoo9ahx4ingai9quaib7oeF9sh',
+        'port' => 3306,
+        'username' => 'ddseventeen',
     ],
     'EXT' => [
         'extConf' => [
@@ -90,15 +90,41 @@ return [
         'caching' => [
             'cacheConfigurations' => [
                 'extbase_object' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
+                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\RedisBackend',
                     'frontend' => 'TYPO3\\CMS\\Core\\Cache\\Frontend\\VariableFrontend',
                     'groups' => [
                         'system',
                     ],
                     'options' => [
-                        'defaultLifetime' => 0,
+                        'defaultLifetime' => 86400,
+			'database' => 0,
                     ],
                 ],
+		'extbase_typo3dbbackend_queries' => [
+			'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\RedisBackend',
+			'groups' => [
+				'system',
+			],
+			'options' => [
+				'defaultLifetime' => 86400,
+				'database' => 1,
+			],
+		],
+		'extbase_reflection' => [
+			'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\RedisBackend',
+			'options' => [
+				'defaultLifetime' => 86400,
+				'database' => 2,
+			],
+		],
+//		'fluid_template' => [
+//			'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\RedisBackend',
+//			'frontend' => 'TYPO3\\CMS\\Core\\Cache\\Frontend\\VariableFrontend',
+//			'options' => [
+//				'defaultLifetime' => 86400,
+//				'database' => 3,
+//			],
+//		],
             ],
         ],
         'clearCacheSystem' => false,
@@ -106,7 +132,7 @@ return [
         'displayErrors' => 0,
         'enableDeprecationLog' => false,
         'encryptionKey' => '710ba8e4edb2782cda0df7721fac87fd326b96300a24e6899c50e66021eb63bcfb344ace69cca30a4a2096ecdc0bd395',
-        'exceptionalErrors' => 28674,
+        'exceptionalErrors' => 20480,
         'isInitialDatabaseImportDone' => true,
         'isInitialInstallationInProgress' => false,
         'sitename' => 'TYPO3 t3kit',

@@ -12,4 +12,16 @@
 
 .intro_text {
   text-align:center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+
+}
+
+.big-icon-text-btn__link::after {
+  content:none;
+ 
+}
+
+h4 {
+  line-height: 1.3;
 }

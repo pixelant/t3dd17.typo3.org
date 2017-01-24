@@ -1,6 +1,9 @@
+.col-bg-img {
+max-width: 3200px;
 
-.card {
-
+h1 {
+color: #fff;
+}
 }
 
 
@@ -121,3 +124,31 @@
         border-top-color: cadetblue;
     }
 }
+
+.card__soldout {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    bottom: 10px;
+    left: 15px;
+    background-color: rgba(66, 66, 66, 0.41);
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+    height: auto;
+}
+
+.card__soldout span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: #ff8700;
+    width: 100%;
+    z-index: 1;
+    padding: 15px;
+ }
