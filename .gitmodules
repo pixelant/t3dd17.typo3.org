@@ -52,3 +52,9 @@
 [submodule "typo3conf/ext/pxa_form_enhancement"]
 	path = typo3conf/ext/pxa_form_enhancement
 	url = git@github.com:pixelant/pxa_form_enhancement.git
+[submodule "typo3conf/ext/vhs"]
+	path = typo3conf/ext/vhs
+	url = git@github.com:FluidTYPO3/vhs.git
+[submodule "typo3conf/ext/pxa_agenda_t3dd"]
+	path = typo3conf/ext/pxa_agenda_t3dd
+	url = git@bitbucket.org:pixelant/pxa_agenda_t3dd.git
