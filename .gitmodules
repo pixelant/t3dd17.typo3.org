@@ -58,3 +58,6 @@
 [submodule "typo3conf/ext/pxa_agenda_t3dd"]
 	path = typo3conf/ext/pxa_agenda_t3dd
 	url = git@bitbucket.org:pixelant/pxa_agenda_t3dd.git
+[submodule "typo3conf/ext/femanager"]
+	path = typo3conf/ext/femanager
+	url = git@github.com:TYPO3-extensions/femanager.git

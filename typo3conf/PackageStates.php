@@ -306,6 +306,26 @@ return [
             'packagePath' => 'typo3conf/ext/theme_t3kit_bluemountain/',
             'suggestions' => [],
         ],
+        'femanager' => [
+            'composerName' => 'in2code/femanager',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/femanager/',
+            'suggestions' => [
+                'static_info_tables',
+            ],
+        ],
+        'vhs' => [
+            'composerName' => 'fluidtypo3/vhs',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/vhs/',
+            'suggestions' => [],
+        ],
+        'pxa_agenda_t3dd' => [
+            'composerName' => 'pixelant/pxa-agenda-t3dd',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/pxa_agenda_t3dd/',
+            'suggestions' => [],
+        ],
         'realurl' => [
             'composerName' => 'dmitryd/typo3-realurl',
             'state' => 'active',
@@ -354,12 +374,6 @@ return [
             'composerName' => 'apache-solr-for-typo3/solr',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/solr/',
-            'suggestions' => [],
-        ],
-        'sso' => [
-            'composerName' => 'typo3/sso',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/sso/',
             'suggestions' => [],
         ],
         'adodb' => [
@@ -420,6 +434,12 @@ return [
             'composerName' => 'typo3/sessions',
             'state' => 'inactive',
             'packagePath' => 'typo3conf/ext/sessions/',
+            'suggestions' => [],
+        ],
+        'sso' => [
+            'composerName' => 'typo3/sso',
+            'state' => 'inactive',
+            'packagePath' => 'typo3conf/ext/sso/',
             'suggestions' => [],
         ],
         'sys_action' => [
